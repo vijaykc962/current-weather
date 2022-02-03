@@ -1,0 +1,120 @@
+
+ 
+  body{
+  
+    background-image: url(https://www.euttaranchal.com/tourism/photos/chakrata-4984182.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-width:80%;
+
+/*       min-width: 75%; */
+/*         background-image: url("https://media.istockphoto.com/photos/cloud-storm-sky-with-thunderbolt-over-rural-landscape-picture-id1011777484?b=1&k=20&m=1011777484&s=170667a&w=0&h=XO5EQ_8QvVhj01jSbvu-sZbRIgiibaylLWO-w5VLmoo="); */
+/* } l("https://media.istockphoto.com/photos/cloud-storm-sky-with-thunderbolt-over-rural-landscape-picture-id1011777484?b=1&k=20&m=1011777484&s=170667a&w=0&h=XO5EQ_8QvVhj01jSbvu-sZbRIgiibaylLWO-w5VLmoo="); */
+  } 
+
+
+   #backgroundimage{
+     width: 100%;
+     height: fit-content;
+     background-size: cover;
+   }
+
+  .search {
+    width: 100%;
+    /* position: relative; */
+    margin-left: 55%;
+    display: flex;
+    
+  }
+  .wrap{
+    width: 30%;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border:  solid #cc0055;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #cc0088;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .searchButton:hover{
+        background-color: red;
+  }
+
+
+  #searchinterface{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .wheatherimage1{
+background-image: url(https://image.shutterstock.com/image-photo/winter-landscape-snowy-trees-snowflakes-600w-499812748.jpg);
+size: 50px;
+  }
+
+  #output{
+      /* display: flex;
+      justify-content: space-between; */
+      margin-left: 35%;
+      font-size:medium;
+  }
+
+  #weathers {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      border: solid rgb(128, 0, 64);
+      width: 30%;
+      height:50px;
+      padding: 5px;
+      border-radius: 10px;
+      margin-left: 50px;
+  }
+
+  #coordinate{
+      display: flex;
+      justify-content: space-between;
+      border: solid rgb(47, 161, 255);
+      border-radius: 10px;
+      width: 25%;
+      height:50px;
+      padding: 5px;
+      margin-left: 75px;
+      
+  }
+  #nameofcity{
+    text-align: center;
+    border-radius: 10px ;
+    border: solid rgb(47, 137, 255);
+    width: 30%;
+    height:50px;
+    padding: 5px;
+    position: relative;
+    margin-left: 34%;
+   
+
+    
+  }
