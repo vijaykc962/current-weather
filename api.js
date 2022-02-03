@@ -9,10 +9,6 @@ let lat;
 async function Getdata(cityname){
     console.log('before fetch data');
  let ans= await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + cityname + '&appid=e4a98571b577a282519f100cbb89bde8');
- if (ans=='Cannot read properties of undefined ') {
-   window.alert("Please enter correct city name");
-   return false;
- }
  
  ans=ans.json();
      return ans;
